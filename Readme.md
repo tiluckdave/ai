@@ -31,3 +31,21 @@ This README provides an overview of various search algorithms along with their t
 - **BestFS (Best-First Search):** Expands the most promising node, based on some evaluation function. It is not complete or optimal.
 - **A\* (A-Star):** Evaluates nodes by combining the cost to reach the node and an estimate of the cost to get from the node to the goal. It is both complete and optimal.
 - **AO* (Anytime Optimized A*):** An extension of A\* that finds an optimal solution while continuously improving it until a time limit is reached. It is both complete and optimal.
+
+## Additional Problem Types
+
+### Constraint Satisfaction Problems (CSP)
+
+CSPs involve variables that have to be assigned values subject to constraints. Examples include scheduling problems, Sudoku, and map coloring.
+
+### Cryptarithmetic Puzzles
+
+Cryptarithmetic puzzles are a type of mathematical puzzle where the digits of some numbers are replaced by letters. The aim is to decipher the original digits.
+
+### N-Queens Problem
+
+The N-Queens problem involves placing N chess queens on an N×N chessboard so that no two queens threaten each other.
+
+## Prolog
+
+Prolog is a logic programming language associated with artificial intelligence and computational linguistics. It's particularly well-suited for tasks that involve logical inference, such as expert systems and natural language processing.
